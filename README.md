@@ -1,10 +1,12 @@
-# Castle World · As aventuras de Lucas Yem
+# Castle World V4 · O reino de Ruanda
 
-Versão aprimorada do HTML enviado pelo usuário, com as 14 etapas, guardiões, segredos, montarias e corrida bônus preservados.
+Versão com visual de fantasia inspirado na referência enviada pelo usuário. As 14 etapas, guardiões, segredos, montarias e corrida bônus foram preservados.
+
+![Prévia da versão V4](preview-v4.png)
 
 ## Jogar
 
-Abra `index.html` em um navegador atualizado com suporte a WebGL. Imagens, áudio e Three.js estão incorporados: o jogo não precisa de conexão com a internet.
+Abra `index.html` em um navegador atualizado. Todas as imagens e o áudio estão incorporados: o jogo não precisa de conexão com a internet ou de WebGL.
 
 Para desenvolver, também é possível servir esta pasta:
 
@@ -32,11 +34,14 @@ No celular, use os botões de toque. É possível andar e pular simultaneamente.
 
 ## Alterações
 
-- Nova tela inicial, guia de controles e menus com paleta de fantasia em verde, marfim e dourado.
-- Mapa alinhado à arte, marcadores de progresso, cadeados e botão de entrada.
-- HUD, diálogos, indicadores de poderes e seleção de carros redesenhados.
-- Cenário com escala e enquadramento corrigidos, maior definição, iluminação e materiais ajustados.
+- Cenário ilustrado com castelo, montanhas, florestas e cachoeiras; variações de iluminação e clima.
+- Terreno com arte de pedras, raízes, musgo e capim, blocos de bronze e canos metálicos.
+- Herói e montarias com formas orgânicas, roupas sombreadas e animação articulada.
+- Inimigos ilustrados: morcego, troll, serpente, xamã goblin e fera blindada, com pelagem, escamas, presas e placas naturais.
+- Guardiões ilustrados e Drandaw como dragão de escamas escuras, asas e chifres.
+- HUD azul de fantasia com corações vermelhos, estrela dourada, molduras prateadas e divisor verde, seguindo a referência.
+- Menus, mapa, diálogos, poderes, corrida e controles combinando com o novo estilo.
 - Entrada multitouch, teclas simultâneas e pausa ao perder o foco ou trocar de aba.
-- Preferência de som persistente, validação de dados salvos e limpeza de recursos gráficos ao trocar de fase.
+- Preferência de som persistente, validação de dados salvos e cache limitado de texturas para celular.
 
-O código principal está no próprio `index.html`. Não é necessário instalar pacotes ou executar um build. A biblioteca Three.js r128 está incorporada com seu aviso de licença MIT.
+O código e as artes estão no próprio `index.html`. Não é necessário instalar pacotes ou executar um build. A renderização agora usa Canvas 2D e não depende de bibliotecas externas. As novas artes de cenário, terreno e criaturas foram geradas para esta versão; as animações e os elementos interativos são desenhados pelo jogo.
